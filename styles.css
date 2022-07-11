@@ -68,8 +68,8 @@ body {
   grid-row: 3 / 4;
 }
 .card:nth-of-type(14) {
-  grid-column: 4 / 5;
-  grid-row: 4 / 5;
+  grid-column: 4 ;
+  grid-row: 4 ;
 }
 .avatar {
   width: 60px;
