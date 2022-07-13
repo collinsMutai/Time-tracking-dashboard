@@ -14,7 +14,7 @@ body {
 .container {
   display: grid;
   margin: 100px;
-  gap: 20px;
+  gap: 40px;
   grid-template-columns: repeat(4, 250px);
   grid-template-rows: 220px;
   grid-template-areas: "a b c d" "a e f g ";
@@ -42,21 +42,27 @@ body {
   border-bottom-right-radius: 10px;
 }
 .div-two {
+  background: url('images/icon-work.svg')no-repeat right top ;
   grid-area: b;
 }
 .div-three {
+  background: url('images/icon-play.svg')no-repeat right top ;
   grid-area: c;
 }
 .div-four {
+  background: url('images/icon-study.svg')no-repeat right top ;
   grid-area: d;
 }
 .div-five {
+  background: url('./images/icon-exercise.svg')no-repeat right top ;
   grid-area: e;
 }
 .div-six {
+  background: url('./images/icon-social.svg')no-repeat right top ;
   grid-area: f;
 }
 .div-seven {
+  background: url('./images/icon-self-care.svg')no-repeat right top ;
   grid-area: g;
 }
 .avatar {
@@ -143,7 +149,7 @@ body {
     flex-direction: column;
     margin: 20px;
     gap: 15px;
-    margin: 30px;
+    /* margin: 30px; */
   }
   .jeremy {
     gap: 2rem;
