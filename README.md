@@ -3,7 +3,7 @@
 
 ## Desktop view
 <img
-  src="images/Screen Shot 2022-07-13 at 1.24.03 PM.png"
+  src="images/127.0.0.1_5501_index.html.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -11,7 +11,7 @@
 
   ## Mobile view
 <img
-  src="images/Screen Shot 2022-07-13 at 1.26.31 PM.png"
+  src="images/127.0.0.1_5501_index.html(Pixel 5).png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
