@@ -9,13 +9,13 @@ body {
   margin: 100px auto;
   background-color: #0d1323;
   font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 .container {
   display: grid;
   margin: 100px;
   gap: 20px;
   grid-template-columns: repeat(4, 250px);
-  /* gap: ; */
   grid-template-rows: 220px;
   grid-template-areas: "a b c d" "a e f g ";
 }
@@ -88,6 +88,15 @@ body {
   margin-bottom: 20px;
   gap: 90px;
 }
+.display-flex {
+  margin-top: 10px;
+}
+.opacity-text {
+  opacity: 50%;
+}
+.text {
+  opacity: 50%;
+}
 .icon-styles {
   height: 31px;
   border-radius: 10px 10px 0 0;
@@ -144,10 +153,21 @@ body {
     justify-content: flex-start;
     gap: 60px;
   }
+  .heading {
+    font-size: 18px;
+  }
   .sub-heading {
     margin-bottom: 1px;
+    font-size: 16px;
   }
   .header {
     gap: 155px;
+  }
+  .display-flex {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top: 10px;
   }
 }
